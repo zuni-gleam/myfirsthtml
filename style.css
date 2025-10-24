@@ -1,53 +1,134 @@
-body {
+body { 
+  background-color: #f2f2f2;
+  text-align: center;
   font-family: Arial, sans-serif;
-  background-color: #d9e8e8;
 }
 
-#header {
-  background-color: #8ad6d3;
-  border: 2px solid #6ab3b0;
+#total
+{
+  background-image: url(background.jpg);
+}
+
+
+h1 {
+  color: #8ce1e0; 
+}
+
+p {
+  color: #555;
+  text-indent: 20px;
+  line-height: 1.4;
+}
+
+
+h2 {
+    color: #078b8b;
+}
+
+#mainbody{
+  padding: 5px;
+  background-color: white;
+  border: 1px;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#header{
+ 
+  background-color: #a8f0ef;
+  padding: 5px 10px; 
+}
+
+#container {
+  display: flex;
   padding: 10px;
-  text-align: right;
+  
 }
 
-#header h1 {
+#friends{
+  padding: 5px; 
+  background-color:#3fe0d0;
+  text-align: left;
+  border: 5px solid #078b8b;
+  margin-right: 20px;
+  width: 25%;  
+  color: white; 
+}
+
+
+#friends a {
+    color: white;
+}
+
+
+.friends-spacer {
+  height: 150px; 
+  
+}
+
+#entry {
+
+  width: 75%; 
+  background-color: #e5f5f6; 
+  padding: 10px; 
+  
+
+}
+#entry h2 {
+    text-decoration: dashed;
+    text-align: left;
+}
+
+
+.entry-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+
+#entry img{
+  
+  margin-left: 20px; 
+  margin-top: 10px; 
+}
+
+
+#entry p {
   margin: 0;
-  font-weight: bold;
+  flex-grow: 1;
 }
 
-#header .tagline {
-  font-style: italic;
-  color: #666;
+#post {
+    background-color: #e5f5f6;
+    border: 1px solid #c3e1e3;
+    margin-left: 25%; 
+    padding: 10px;
+   
 }
 
-#sidebar {
-  float: left;
-  width: 200px;
-  background-color: #a0d7d3;
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid #6ab3b0;
+
+#post h2 {
+    text-align: left;
 }
 
-#content {
-  margin-left: 230px;
-  padding: 10px;
+
+.post-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.post {
-  border: 1px solid #ccc;
-  background-color: #eef9f9;
-  margin-bottom: 15px;
-  padding: 10px;
+#post img {
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: white;
 }
 
-.post img {
-  float: right;
-  margin-left: 10px;
-  width: 100px;
-}
 
-.post-title {
-  font-weight: bold;
-  color: #007777;
+#post p {
+    margin: 0;
+    
 }
