@@ -106,11 +106,9 @@ h2 {
    
 }
 
-
 #post h2 {
     text-align: left;
 }
-
 
 .post-content {
     display: flex;
@@ -125,7 +123,6 @@ h2 {
     padding: 5px;
     background-color: white;
 }
-
 
 #post p {
     margin: 0;
